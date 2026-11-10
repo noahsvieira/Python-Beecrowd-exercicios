@@ -1,0 +1,118 @@
+#  Calculadora de Orçamento em Python
+
+Aplicação desenvolvida em Python para calcular o valor de pedidos com base na quantidade e no preço unitário de produtos.
+
+Este projeto surgiu como uma aplicação prática dos conhecimentos adquiridos durante a resolução de exercícios de lógica de programação na plataforma **Beecrowd**, transformando conceitos inicialmente estudados em problemas isolados em uma aplicação funcional.
+
+##  Objetivo
+
+Consolidar os fundamentos de Python por meio do desenvolvimento de uma solução simples para automatizar cálculos de pedidos, exercitando a lógica de programação, a organização do código e boas práticas de desenvolvimento.
+
+##  Origem e evolução do projeto
+
+Antes de desenvolver esta aplicação, foram resolvidos exercícios introdutórios na plataforma Beecrowd, envolvendo:
+
+- Entrada e saída de dados.
+- Variáveis e conversão de tipos.
+- Operações matemáticas.
+- Cálculos com números inteiros e decimais.
+- Aplicação de fórmulas.
+- Formatação de resultados.
+
+Entre os exercícios utilizados como referência para consolidar esses conhecimentos estão os problemas **1001 a 1011**, especialmente o exercício **1010 — Cálculo Simples**, que trabalha com quantidades, preços unitários e cálculo do valor total.
+
+A partir dessa base, os conceitos foram reunidos e aplicados em uma situação prática, dando origem à calculadora de orçamento.
+
+##  Funcionalidades
+
+- Recebimento dos nomes dos produtos.
+- Entrada das quantidades e dos preços unitários.
+- Cálculo automático do subtotal de cada produto.
+- Cálculo do valor total do pedido.
+- Exibição de um resumo organizado dos valores.
+
+##  Tecnologias utilizadas
+
+- **Python 3**
+- Recursos nativos da linguagem.
+
+##  Conceitos aplicados
+
+- Variáveis e tipos de dados (`str`, `int` e `float`).
+- Entrada e saída de dados (`input()` e `print()`).
+- Conversão de tipos.
+- Operações matemáticas.
+- Formatação de valores com f-strings.
+- Organização e legibilidade do código.
+
+##  Boas práticas de desenvolvimento e segurança
+
+Durante o desenvolvimento, foram considerados princípios importantes:
+
+- Utilização de recursos nativos, sem dependências externas desnecessárias.
+- Separação entre recebimento de dados, processamento e exibição dos resultados.
+- Nomes de variáveis claros e descritivos.
+- Ausência de execução dinâmica de código com `eval()`.
+- Comentários para identificar as principais etapas da aplicação.
+
+**Limitações conhecidas:** esta versão ainda não implementa validação de entradas, tratamento de exceções ou precisão monetária com `Decimal`. Esses pontos estão previstos como melhorias futuras.
+
+## ▶ Como executar
+
+**1. Clone o repositório:**
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+**2. Acesse a pasta do projeto:**
+
+```bash
+cd projeto_calculadora_orcamento
+```
+
+**3. Execute a aplicação:**
+
+```bash
+python main.py
+```
+
+## 💻 Exemplo de utilização
+
+**Entrada:**
+
+```text
+Teclado
+2
+50.00
+Mouse
+3
+25.00
+```
+
+**Saída:**
+
+```text
+--- RESUMO DO PEDIDO ---
+Teclado: R$ 100.00
+Mouse: R$ 75.00
+-----------------------
+TOTAL: R$ 175.00
+```
+
+##  Melhorias futuras
+
+- Implementar validação de entradas.
+- Adicionar tratamento de exceções.
+- Utilizar `Decimal` para cálculos monetários.
+- Permitir adicionar mais produtos ao pedido.
+- Implementar testes automatizados.
+- Evoluir a aplicação com funções e melhor organização do código.
+
+##  Sobre o desenvolvimento
+
+Este projeto representa uma etapa da minha evolução prática em programação.
+
+A partir da resolução de exercícios de lógica na plataforma Beecrowd, os conhecimentos adquiridos foram aplicados na construção de uma pequena solução funcional, reforçando a importância de transformar fundamentos teóricos em aplicações práticas.
+
+**Foco:** Python, lógica de programação, desenvolvimento backend, código limpo e boas práticas de segurança.
