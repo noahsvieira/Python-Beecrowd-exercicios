@@ -14,3 +14,13 @@ Alerta de Segurança: Usuário não encontrado!
 
 '''
 
+lista_vip = {"mariana" : "admin" , "pedro" : "usuario"}
+
+usuario_tentando_entrar = "joao_intruso"
+
+try:
+    cargo = lista_vip[usuario_tentando_entrar]
+    print(f"Bem vindo, {usuario_tentando_entrar}!")
+
+except KeyError:
+    print("Alerta de Segurança: Usuário não encontrado!")

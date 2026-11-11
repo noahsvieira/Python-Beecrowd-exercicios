@@ -12,11 +12,13 @@ pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão
 outro inteiro.
 
 Entrada
-O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), correspondente ao raio da esfera.
+O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), 
+correspondente ao raio da esfera.
 
 Saída
 A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, 
-com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
+com um espaço antes e um espaço depois da igualdade. 
+O valor deverá ser apresentado com 3 casas após o ponto.
 
 Exemplos de Entrada
 
